@@ -51,6 +51,6 @@ for (let i = 0; i <= teachers.length; i++) {
 // e salva il risultato nella variabile isTeachersEmpty
 
 if (teachers.length > 0) {
-  const isTeachersEmpty = false;
+  const isTeachersEmpty = teachers;
   console.log(isTeachersEmpty)
 }
